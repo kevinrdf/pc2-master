@@ -46,6 +46,7 @@ export default {
       :currency="country.currency"
       :region="country.region"
       :code="country.iso2"
+      :clickable="true"
     ></CountryComponent>
   </div>
 </template>
@@ -55,6 +56,10 @@ export default {
   .countries {
     display: flex;
     align-items: center;
+  }
+
+  input {
+    line-height: 2em;
   }
 
   .countries-container {

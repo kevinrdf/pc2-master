@@ -27,6 +27,11 @@ const router = createRouter({
       name: "capitalsGame",
       component: () => import("../views/CapitalsGameView.vue"),
     },
+    {
+      path: "/cities",
+      name: "cities",
+      component: () => import("../views/CitiesView.vue"),
+    },
   ],
 });
 

@@ -19,6 +19,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/countries">Countries</RouterLink>
+        <RouterLink to="/cities">Cities</RouterLink>
         <RouterLink to="/capitalsGame">Capitals Game</RouterLink>
       </nav>
     </div>

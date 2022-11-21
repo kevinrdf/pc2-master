@@ -43,7 +43,7 @@ export default {
     <div class="countries-container">
       <CountryComponent
         :name="country.name"
-        :capital="''"
+        :capital="'???'"
         :currency_name="country.currency_name"
         :currency="country.currency"
         :region="country.region"
