@@ -21,7 +21,7 @@ export default {
       const filtro = e.target.value;
       this.paisActual = filtro;
       this.countries = countries.filter((country) =>
-        country.name.toLowerCase().includes(filtro)
+        country.name.toLowerCase().includes(filtro.toLowerCase())
       );
     },
   },
